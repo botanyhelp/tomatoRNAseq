@@ -1,0 +1,456 @@
+Status:	Resolving address of hiseq.huck.psu.edu
+Status:	Connecting to 10.11.1.48:21...
+Status:	Connection established, waiting for welcome message...
+Response:	220-                  UNAUTHORIZED ACCESS IS PROHIBITED!
+Response:	220-NOTICE: By continuing, you agree to abide by Penn State University
+Response:	220-        and Huck Institutes of the Life Sciences policies.  If you
+Response:	220-        have not read these policies or do not agree with them,
+Response:	220         please log off or disconnect immediately.
+Command:	USER sally-mackenzie
+Response:	331 User sally-mackenzie OK. Password required
+Command:	PASS ********
+Response:	230 OK. Current directory is /
+Command:	SYST
+Response:	215 UNIX Type: L8
+Command:	FEAT
+Response:	211-Extensions supported:
+Response:	 EPRT
+Response:	 IDLE
+Response:	 MDTM
+Response:	 SIZE
+Response:	 REST STREAM
+Response:	 MLST type*;size*;sizd*;modify*;UNIX.mode*;UNIX.uid*;UNIX.gid*;unique*;
+Response:	 MLSD
+Response:	 AUTH TLS
+Response:	 PBSZ
+Response:	 PROT
+Response:	 UTF8
+Response:	 ESTA
+Response:	 PASV
+Response:	 EPSV
+Response:	 SPSV
+Response:	 ESTP
+Response:	211 End.
+Command:	OPTS UTF8 ON
+Response:	200 OK, UTF-8 enabled
+Status:	Connected
+Status:	Retrieving directory listing...
+Command:	PWD
+Response:	257 "/" is your current location
+Command:	TYPE I
+Response:	200 TYPE is now 8-bit binary
+Command:	PASV
+Response:	227 Entering Passive Mode (10,11,1,48,119,180)
+Command:	MLSD
+Response:	150 Accepted data connection
+Response:	226-Options: -a -l 
+Response:	226 4 matches total
+Status:	Directory listing successful
+Status:	Retrieving directory listing...
+Command:	CWD /sally-mackenzie/200203_NB551436_0114_AHVHNKBGXC
+Response:	550 Can't change directory to /sally-mackenzie/200203_NB551436_0114_AHVHNKBGXC: No such file or directory
+Error:	Failed to retrieve directory listing
+Status:	Retrieving directory listing...
+Command:	CWD /sally-mackenzie/200203_NB551436_0114_AHVHNKBGXC
+Response:	550 Can't change directory to /sally-mackenzie/200203_NB551436_0114_AHVHNKBGXC: No such file or directory
+Error:	Failed to retrieve directory listing
+Status:	Retrieving directory listing...
+Command:	CWD /200203_NB551436_0114_AHVHNKBGXC
+Response:	250 OK. Current directory is /200203_NB551436_0114_AHVHNKBGXC
+Command:	PWD
+Response:	257 "/200203_NB551436_0114_AHVHNKBGXC" is your current location
+Command:	PASV
+Response:	227 Entering Passive Mode (10,11,1,48,117,189)
+Command:	MLSD
+Response:	150 Accepted data connection
+Response:	226-Options: -a -l 
+Response:	226 4 matches total
+Status:	Directory listing successful
+Status:	Retrieving directory listing...
+Command:	CWD /200203_NB551436_0114_AHVHNKBGXC/fastq
+Response:	250 OK. Current directory is /200203_NB551436_0114_AHVHNKBGXC/fastq
+Command:	PWD
+Response:	257 "/200203_NB551436_0114_AHVHNKBGXC/fastq" is your current location
+Command:	PASV
+Response:	227 Entering Passive Mode (10,11,1,48,119,146)
+Command:	MLSD
+Response:	150 Accepted data connection
+Response:	226-Options: -a -l 
+Response:	226 30 matches total
+Status:	Directory listing successful
+Status:	Resolving address of hiseq.huck.psu.edu
+Status:	Retrieving directory listing...
+Command:	CWD /200203_NB551436_0114_AHVHNKBGXC
+Response:	250 OK. Current directory is /200203_NB551436_0114_AHVHNKBGXC
+Command:	CWD fastq
+Status:	Connecting to 10.11.1.48:21...
+Status:	Connection established, waiting for welcome message...
+Response:	220-                  UNAUTHORIZED ACCESS IS PROHIBITED!
+Response:	220-NOTICE: By continuing, you agree to abide by Penn State University
+Response:	220-        and Huck Institutes of the Life Sciences policies.  If you
+Response:	220-        have not read these policies or do not agree with them,
+Response:	220         please log off or disconnect immediately.
+Command:	USER sally-mackenzie
+Response:	250 OK. Current directory is /200203_NB551436_0114_AHVHNKBGXC/fastq
+Command:	PWD
+Response:	331 User sally-mackenzie OK. Password required
+Command:	PASS ********
+Response:	257 "/200203_NB551436_0114_AHVHNKBGXC/fastq" is your current location
+Status:	Directory listing successful
+Status:	Resolving address of hiseq.huck.psu.edu
+Status:	Connecting to 10.11.1.48:21...
+Status:	Connection established, waiting for welcome message...
+Response:	220-                  UNAUTHORIZED ACCESS IS PROHIBITED!
+Response:	220-NOTICE: By continuing, you agree to abide by Penn State University
+Response:	220-        and Huck Institutes of the Life Sciences policies.  If you
+Response:	220-        have not read these policies or do not agree with them,
+Response:	220         please log off or disconnect immediately.
+Command:	USER sally-mackenzie
+Response:	331 User sally-mackenzie OK. Password required
+Command:	PASS ********
+Response:	230 OK. Current directory is /
+Command:	OPTS UTF8 ON
+Response:	200 OK, UTF-8 enabled
+Status:	Connected
+Status:	Starting download of /200203_NB551436_0114_AHVHNKBGXC/demulitplex_stats.html
+Command:	CWD /200203_NB551436_0114_AHVHNKBGXC
+Response:	250 OK. Current directory is /200203_NB551436_0114_AHVHNKBGXC
+Command:	TYPE A
+Response:	200 TYPE is now ASCII
+Command:	PASV
+Response:	227 Entering Passive Mode (10,11,1,48,117,172)
+Command:	RETR demulitplex_stats.html
+Response:	150-Accepted data connection
+Response:	150 9.2 kbytes to download
+Response:	226-File successfully transferred
+Response:	226 0.013 seconds (measured here), 0.71 Mbytes per second
+Response:	230 OK. Current directory is /
+Command:	OPTS UTF8 ON
+Status:	File transfer successful, transferred 9,980 bytes in 1 second
+Status:	Starting download of /200203_NB551436_0114_AHVHNKBGXC/fastq/Undetermined_S0_R2_001.fastq.gz
+Command:	CWD /200203_NB551436_0114_AHVHNKBGXC/fastq
+Response:	200 OK, UTF-8 enabled
+Status:	Connected
+Status:	Starting download of /200203_NB551436_0114_AHVHNKBGXC/fastq/Undetermined_S0_R2_001_fastqc.html
+Command:	CWD /200203_NB551436_0114_AHVHNKBGXC/fastq
+Response:	250 OK. Current directory is /200203_NB551436_0114_AHVHNKBGXC/fastq
+Command:	TYPE I
+Response:	250 OK. Current directory is /200203_NB551436_0114_AHVHNKBGXC/fastq
+Command:	TYPE A
+Response:	200 TYPE is now 8-bit binary
+Command:	PASV
+Response:	200 TYPE is now ASCII
+Command:	PASV
+Response:	227 Entering Passive Mode (10,11,1,48,120,106)
+Command:	RETR Undetermined_S0_R2_001.fastq.gz
+Response:	227 Entering Passive Mode (10,11,1,48,119,122)
+Command:	RETR Undetermined_S0_R2_001_fastqc.html
+Response:	150-Accepted data connection
+Response:	150 1061139.1 kbytes to download
+Response:	150-Accepted data connection
+Response:	150 705.3 kbytes to download
+Response:	226-File successfully transferred
+Response:	226 0.534 seconds (measured here), 1.29 Mbytes per second
+Status:	File transfer successful, transferred 722,413 bytes in 1 second
+Status:	Starting download of /200203_NB551436_0114_AHVHNKBGXC/fastq/Undetermined_S0_R1_001_fastqc.html
+Command:	PASV
+Response:	227 Entering Passive Mode (10,11,1,48,118,241)
+Command:	RETR Undetermined_S0_R1_001_fastqc.html
+Response:	150-Accepted data connection
+Response:	150 696.5 kbytes to download
+Response:	226-File successfully transferred
+Response:	226 0.298 seconds (measured here), 2.29 Mbytes per second
+Status:	File transfer successful, transferred 713,437 bytes in 1 second
+Status:	Starting download of /200203_NB551436_0114_AHVHNKBGXC/fastq/Undetermined_S0_R1_001.fastq.gz
+Command:	TYPE I
+Response:	200 TYPE is now 8-bit binary
+Command:	PASV
+Response:	227 Entering Passive Mode (10,11,1,48,118,118)
+Command:	RETR Undetermined_S0_R1_001.fastq.gz
+Response:	150-Accepted data connection
+Response:	150 1061141.5 kbytes to download
+Response:	226-File successfully transferred
+Response:	226 182.257 seconds (measured here), 5.69 Mbytes per second
+Status:	File transfer successful, transferred 1,086,606,409 bytes in 182 seconds
+Status:	Starting download of /200203_NB551436_0114_AHVHNKBGXC/fastq/R_R_P3_S3_R2_001_fastqc.html
+Command:	TYPE A
+Response:	200 TYPE is now ASCII
+Command:	PASV
+Response:	227 Entering Passive Mode (10,11,1,48,118,165)
+Command:	RETR R_R_P3_S3_R2_001_fastqc.html
+Response:	150-Accepted data connection
+Response:	150 672.5 kbytes to download
+Response:	226-File successfully transferred
+Response:	226 0.303 seconds (measured here), 2.17 Mbytes per second
+Status:	File transfer successful, transferred 688,787 bytes in 1 second
+Status:	Starting download of /200203_NB551436_0114_AHVHNKBGXC/fastq/R_R_P3_S3_R2_001.fastq.gz
+Command:	TYPE I
+Response:	200 TYPE is now 8-bit binary
+Command:	PASV
+Response:	227 Entering Passive Mode (10,11,1,48,119,168)
+Command:	RETR R_R_P3_S3_R2_001.fastq.gz
+Response:	150-Accepted data connection
+Response:	150 2989171.3 kbytes to download
+Response:	226-File successfully transferred
+Response:	226 184.661 seconds (measured here), 5.61 Mbytes per second
+Status:	File transfer successful, transferred 1,086,608,890 bytes in 184 seconds
+Status:	Starting download of /200203_NB551436_0114_AHVHNKBGXC/fastq/R_R_P3_S3_R1_001_fastqc.html
+Command:	TYPE A
+Response:	200 TYPE is now ASCII
+Command:	PASV
+Response:	227 Entering Passive Mode (10,11,1,48,120,91)
+Command:	RETR R_R_P3_S3_R1_001_fastqc.html
+Response:	150-Accepted data connection
+Response:	150 688.4 kbytes to download
+Response:	226-File successfully transferred
+Response:	226 0.200 seconds (measured here), 3.36 Mbytes per second
+Status:	File transfer successful, transferred 705,087 bytes in 2 seconds
+Status:	Starting download of /200203_NB551436_0114_AHVHNKBGXC/fastq/R_R_P3_S3_R1_001.fastq.gz
+Command:	TYPE I
+Response:	200 TYPE is now 8-bit binary
+Command:	PASV
+Response:	227 Entering Passive Mode (10,11,1,48,119,104)
+Command:	RETR R_R_P3_S3_R1_001.fastq.gz
+Response:	150-Accepted data connection
+Response:	150 2890410.4 kbytes to download
+Response:	226-File successfully transferred
+Response:	226 505.037 seconds (measured here), 5.59 Mbytes per second
+Status:	File transfer successful, transferred 2,959,780,294 bytes in 505 seconds
+Status:	Starting download of /200203_NB551436_0114_AHVHNKBGXC/fastq/R_R_P2_S2_R2_001_fastqc.html
+Command:	TYPE A
+Response:	200 TYPE is now ASCII
+Command:	PASV
+Response:	227 Entering Passive Mode (10,11,1,48,119,239)
+Command:	RETR R_R_P2_S2_R2_001_fastqc.html
+Response:	150-Accepted data connection
+Response:	150 669.2 kbytes to download
+Response:	226-File successfully transferred
+Response:	226 0.276 seconds (measured here), 2.37 Mbytes per second
+Status:	File transfer successful, transferred 685,490 bytes in 1 second
+Status:	Starting download of /200203_NB551436_0114_AHVHNKBGXC/fastq/R_R_P2_S2_R2_001.fastq.gz
+Command:	TYPE I
+Response:	200 TYPE is now 8-bit binary
+Command:	PASV
+Response:	227 Entering Passive Mode (10,11,1,48,118,252)
+Command:	RETR R_R_P2_S2_R2_001.fastq.gz
+Response:	150-Accepted data connection
+Response:	150 2512073.3 kbytes to download
+Response:	226-File successfully transferred
+Response:	226 518.206 seconds (measured here), 5.63 Mbytes per second
+Status:	File transfer successful, transferred 3,060,911,423 bytes in 519 seconds
+Status:	Starting download of /200203_NB551436_0114_AHVHNKBGXC/fastq/R_R_P2_S2_R1_001_fastqc.html
+Command:	TYPE A
+Response:	200 TYPE is now ASCII
+Command:	PASV
+Response:	227 Entering Passive Mode (10,11,1,48,119,23)
+Command:	RETR R_R_P2_S2_R1_001_fastqc.html
+Response:	150-Accepted data connection
+Response:	150 690.6 kbytes to download
+Response:	226-File successfully transferred
+Response:	226 0.327 seconds (measured here), 2.06 Mbytes per second
+Status:	File transfer successful, transferred 707,407 bytes in 1 second
+Status:	Starting download of /200203_NB551436_0114_AHVHNKBGXC/fastq/R_R_P2_S2_R1_001.fastq.gz
+Command:	TYPE I
+Response:	200 TYPE is now 8-bit binary
+Command:	PASV
+Response:	227 Entering Passive Mode (10,11,1,48,120,208)
+Command:	RETR R_R_P2_S2_R1_001.fastq.gz
+Response:	150-Accepted data connection
+Response:	150 2425394.4 kbytes to download
+Response:	421 Timeout - try typing a little faster next time
+Error:	Connection closed by server
+Response:	226-File successfully transferred
+Response:	226 423.120 seconds (measured here), 5.60 Mbytes per second
+Status:	File transfer successful, transferred 2,483,603,879 bytes in 424 seconds
+Status:	Starting download of /200203_NB551436_0114_AHVHNKBGXC/fastq/R_R_P1_S1_R2_001_fastqc.html
+Command:	TYPE A
+Response:	200 TYPE is now ASCII
+Command:	PASV
+Response:	227 Entering Passive Mode (10,11,1,48,117,203)
+Command:	RETR R_R_P1_S1_R2_001_fastqc.html
+Response:	150-Accepted data connection
+Response:	150 668.0 kbytes to download
+Response:	226-File successfully transferred
+Response:	226 0.225 seconds (measured here), 2.90 Mbytes per second
+Status:	File transfer successful, transferred 684,186 bytes in 1 second
+Status:	Starting download of /200203_NB551436_0114_AHVHNKBGXC/fastq/R_R_P1_S1_R2_001.fastq.gz
+Command:	TYPE I
+Response:	200 TYPE is now 8-bit binary
+Command:	PASV
+Response:	227 Entering Passive Mode (10,11,1,48,119,102)
+Command:	RETR R_R_P1_S1_R2_001.fastq.gz
+Response:	150-Accepted data connection
+Response:	150 3751952.8 kbytes to download
+Response:	226-File successfully transferred
+Response:	226 434.673 seconds (measured here), 5.64 Mbytes per second
+Status:	File transfer successful, transferred 2,572,363,101 bytes in 435 seconds
+Status:	Starting download of /200203_NB551436_0114_AHVHNKBGXC/fastq/R_R_P1_S1_R1_001_fastqc.html
+Command:	TYPE A
+Response:	200 TYPE is now ASCII
+Command:	PASV
+Response:	227 Entering Passive Mode (10,11,1,48,120,58)
+Command:	RETR R_R_P1_S1_R1_001_fastqc.html
+Response:	150-Accepted data connection
+Response:	150 689.7 kbytes to download
+Response:	226-File successfully transferred
+Response:	226 0.276 seconds (measured here), 2.44 Mbytes per second
+Status:	File transfer successful, transferred 706,481 bytes in 2 seconds
+Status:	Starting download of /200203_NB551436_0114_AHVHNKBGXC/fastq/R_R_P1_S1_R1_001.fastq.gz
+Command:	TYPE I
+Response:	200 TYPE is now 8-bit binary
+Command:	PASV
+Response:	227 Entering Passive Mode (10,11,1,48,120,38)
+Command:	RETR R_R_P1_S1_R1_001.fastq.gz
+Response:	150-Accepted data connection
+Response:	150 3616843.9 kbytes to download
+Response:	226-File successfully transferred
+Response:	226 629.599 seconds (measured here), 5.61 Mbytes per second
+Status:	File transfer successful, transferred 3,703,648,155 bytes in 629 seconds
+Status:	Starting download of /200203_NB551436_0114_AHVHNKBGXC/fastq/R_DR_P3_S6_R2_001_fastqc.html
+Command:	TYPE A
+Response:	200 TYPE is now ASCII
+Command:	PASV
+Response:	227 Entering Passive Mode (10,11,1,48,119,61)
+Command:	RETR R_DR_P3_S6_R2_001_fastqc.html
+Response:	150-Accepted data connection
+Response:	150 668.6 kbytes to download
+Response:	226-File successfully transferred
+Response:	226 0.276 seconds (measured here), 2.37 Mbytes per second
+Status:	File transfer successful, transferred 684,833 bytes in 2 seconds
+Status:	Starting download of /200203_NB551436_0114_AHVHNKBGXC/fastq/R_DR_P3_S6_R2_001.fastq.gz
+Command:	TYPE I
+Response:	200 TYPE is now 8-bit binary
+Command:	PASV
+Response:	227 Entering Passive Mode (10,11,1,48,119,52)
+Command:	RETR R_DR_P3_S6_R2_001.fastq.gz
+Response:	150-Accepted data connection
+Response:	150 3486162.0 kbytes to download
+Response:	226-File successfully transferred
+Response:	226 652.466 seconds (measured here), 5.62 Mbytes per second
+Status:	File transfer successful, transferred 3,841,999,669 bytes in 653 seconds
+Status:	Starting download of /200203_NB551436_0114_AHVHNKBGXC/fastq/R_DR_P3_S6_R1_001_fastqc.html
+Command:	TYPE A
+Response:	200 TYPE is now ASCII
+Command:	PASV
+Response:	227 Entering Passive Mode (10,11,1,48,119,40)
+Command:	RETR R_DR_P3_S6_R1_001_fastqc.html
+Response:	150-Accepted data connection
+Response:	150 686.7 kbytes to download
+Response:	226-File successfully transferred
+Response:	226 0.353 seconds (measured here), 1.90 Mbytes per second
+Status:	File transfer successful, transferred 703,393 bytes in 1 second
+Status:	Starting download of /200203_NB551436_0114_AHVHNKBGXC/fastq/R_DR_P3_S6_R1_001.fastq.gz
+Command:	TYPE I
+Response:	200 TYPE is now 8-bit binary
+Command:	PASV
+Response:	227 Entering Passive Mode (10,11,1,48,119,46)
+Command:	RETR R_DR_P3_S6_R1_001.fastq.gz
+Response:	150-Accepted data connection
+Response:	150 3344108.8 kbytes to download
+Response:	226-File successfully transferred
+Response:	226 582.797 seconds (measured here), 5.60 Mbytes per second
+Status:	File transfer successful, transferred 3,424,367,414 bytes in 583 seconds
+Status:	Starting download of /200203_NB551436_0114_AHVHNKBGXC/fastq/R_DR_P2_S5_R2_001_fastqc.html
+Command:	TYPE A
+Response:	200 TYPE is now ASCII
+Command:	PASV
+Response:	227 Entering Passive Mode (10,11,1,48,120,10)
+Command:	RETR R_DR_P2_S5_R2_001_fastqc.html
+Response:	150-Accepted data connection
+Response:	150 671.9 kbytes to download
+Response:	226-File successfully transferred
+Response:	226 0.273 seconds (measured here), 2.40 Mbytes per second
+Status:	File transfer successful, transferred 688,216 bytes in 1 second
+Status:	Starting download of /200203_NB551436_0114_AHVHNKBGXC/fastq/R_DR_P2_S5_R2_001.fastq.gz
+Command:	TYPE I
+Response:	200 TYPE is now 8-bit binary
+Command:	PASV
+Response:	227 Entering Passive Mode (10,11,1,48,119,149)
+Command:	RETR R_DR_P2_S5_R2_001.fastq.gz
+Response:	150-Accepted data connection
+Response:	150 3296202.8 kbytes to download
+Response:	226-File successfully transferred
+Response:	226 604.702 seconds (measured here), 5.63 Mbytes per second
+Status:	File transfer successful, transferred 3,569,829,924 bytes in 605 seconds
+Status:	Starting download of /200203_NB551436_0114_AHVHNKBGXC/fastq/R_DR_P2_S5_R1_001_fastqc.html
+Command:	TYPE A
+Response:	200 TYPE is now ASCII
+Command:	PASV
+Response:	227 Entering Passive Mode (10,11,1,48,117,186)
+Command:	RETR R_DR_P2_S5_R1_001_fastqc.html
+Response:	150-Accepted data connection
+Response:	150 687.1 kbytes to download
+Response:	226-File successfully transferred
+Response:	226 0.339 seconds (measured here), 1.98 Mbytes per second
+Status:	File transfer successful, transferred 703,765 bytes in 1 second
+Status:	Starting download of /200203_NB551436_0114_AHVHNKBGXC/fastq/R_DR_P2_S5_R1_001.fastq.gz
+Command:	TYPE I
+Response:	200 TYPE is now 8-bit binary
+Command:	PASV
+Response:	227 Entering Passive Mode (10,11,1,48,118,240)
+Command:	RETR R_DR_P2_S5_R1_001.fastq.gz
+Response:	150-Accepted data connection
+Response:	150 3163147.3 kbytes to download
+Response:	226-File successfully transferred
+Response:	226 550.705 seconds (measured here), 5.61 Mbytes per second
+Status:	File transfer successful, transferred 3,239,062,828 bytes in 551 seconds
+Status:	Starting download of /200203_NB551436_0114_AHVHNKBGXC/fastq/R_DR_P1_S4_R2_001_fastqc.html
+Command:	TYPE A
+Response:	200 TYPE is now ASCII
+Command:	PASV
+Response:	227 Entering Passive Mode (10,11,1,48,121,12)
+Command:	RETR R_DR_P1_S4_R2_001_fastqc.html
+Response:	150-Accepted data connection
+Response:	150 672.8 kbytes to download
+Response:	226-File successfully transferred
+Response:	226 0.277 seconds (measured here), 2.38 Mbytes per second
+Status:	File transfer successful, transferred 689,082 bytes in 2 seconds
+Status:	Starting download of /200203_NB551436_0114_AHVHNKBGXC/fastq/R_DR_P1_S4_R2_001.fastq.gz
+Command:	TYPE I
+Response:	200 TYPE is now 8-bit binary
+Command:	PASV
+Response:	227 Entering Passive Mode (10,11,1,48,120,37)
+Command:	RETR R_DR_P1_S4_R2_001.fastq.gz
+Response:	150-Accepted data connection
+Response:	150 3510163.9 kbytes to download
+Response:	226-File successfully transferred
+Response:	226 572.189 seconds (measured here), 5.63 Mbytes per second
+Status:	File transfer successful, transferred 3,375,311,678 bytes in 572 seconds
+Status:	Starting download of /200203_NB551436_0114_AHVHNKBGXC/fastq/R_DR_P1_S4_R1_001_fastqc.html
+Command:	TYPE A
+Response:	200 TYPE is now ASCII
+Command:	PASV
+Response:	227 Entering Passive Mode (10,11,1,48,119,87)
+Command:	RETR R_DR_P1_S4_R1_001_fastqc.html
+Response:	150-Accepted data connection
+Response:	150 686.8 kbytes to download
+Response:	226-File successfully transferred
+Response:	226 0.200 seconds (measured here), 3.35 Mbytes per second
+Status:	File transfer successful, transferred 703,477 bytes in 1 second
+Status:	Starting download of /200203_NB551436_0114_AHVHNKBGXC/fastq/R_DR_P1_S4_R1_001.fastq.gz
+Command:	TYPE I
+Response:	200 TYPE is now 8-bit binary
+Command:	PASV
+Response:	227 Entering Passive Mode (10,11,1,48,118,106)
+Command:	RETR R_DR_P1_S4_R1_001.fastq.gz
+Response:	150-Accepted data connection
+Response:	150 3389834.2 kbytes to download
+Response:	226-File successfully transferred
+Response:	226 590.237 seconds (measured here), 5.61 Mbytes per second
+Status:	File transfer successful, transferred 3,471,190,207 bytes in 591 seconds
+Response:	226-File successfully transferred
+Response:	226 609.780 seconds (measured here), 5.62 Mbytes per second
+Status:	File transfer successful, transferred 3,594,407,794 bytes in 609 seconds
+Status:	Retrieving directory listing...
+Command:	CWD /200203_NB551436_0114_AHVHNKBGXC
+Response:	250 OK. Current directory is /200203_NB551436_0114_AHVHNKBGXC
+Command:	PASV
+Response:	227 Entering Passive Mode (10,11,1,48,119,120)
+Command:	MLSD
+Response:	150 Accepted data connection
+Response:	226-Options: -a -l 
+Response:	226 4 matches total
+Status:	Directory listing successful
+Status:	Disconnected from server
+Status:	Disconnected from server
+
